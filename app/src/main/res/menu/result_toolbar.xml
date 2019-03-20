@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--右侧搜索操作条目-->
+    <item
+        android:id="@+id/action_search"
+        android:title="item1"
+        android:focusable = "true"
+        android:focusableInTouchMode="true"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always"/>
+
+    <!--<item-->
+        <!--android:id="@+id/action_refresh"-->
+        <!--android:title="@string/result_shuaxin"-->
+        <!--android:background = "@color/white"-->
+        <!--android:layout_width="32dp"-->
+        <!--android:layout_height="32dp"-->
+        <!--app:showAsAction="always"/>-->
+
+</menu>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+<!--&lt;!&ndash; 同级的item有几个则在toolbar右边显示几个 &ndash;&gt;-->
+<!--&lt;!&ndash;-->
+    <!--id:之后设置点击事件的时候找到当前菜单项的唯一标识-->
+    <!--title:必填项，Toolbar栏的menu标题-->
+    <!--[如果存在icon，则显示icon图标，不显示文字]-->
+    <!--[如果不存在icon,则显示文字]-->
+    <!--app:showAsAction = "ifRoom" ：显示为一个行为-->
+    <!--android:showAsAction="ifRoom":icon失效显示图标为“3个竖立的点”-->
+<!--&ndash;&gt;-->
+<!--<item android:id="@+id/toolbar_r_img"-->
+    <!--android:title="分享"-->
+    <!--android:icon="@drawable/list_item"-->
+    <!--app:showAsAction="ifRoom"-->
+    <!--&gt;-->
+    <!--&lt;!&ndash; item包含menu表示该menu是item下的子菜单 &ndash;&gt;-->
+    <!--<menu>-->
+        <!--&lt;!&ndash; 将group中的菜单项放于一个组里面 &ndash;&gt;-->
+        <!--<group>-->
+            <!--<item android:id="@+id/toolbar_r_1"-->
+                <!--android:title="登录"-->
+                <!--android:icon="@drawable/list_item"-->
+                <!--app:showAsAction="ifRoom"-->
+                <!--/>-->
+            <!--<item android:id="@+id/toolbar_r_2"-->
+                <!--android:title="注册"-->
+                <!--android:icon="@drawable/list_item"-->
+                <!--app:showAsAction="ifRoom"-->
+                <!--/>-->
+            <!--<item android:id="@+id/toolbar_r_3"-->
+                <!--android:title="设置"-->
+                <!--android:icon="@drawable/list_item"-->
+                <!--app:showAsAction="ifRoom"-->
+                <!--/>-->
+        <!--</group>-->
+    <!--</menu>-->
+<!--</item>-->
+<!--&lt;!&ndash;<item android:title="学习"&ndash;&gt;-->
+<!--&lt;!&ndash;android:id="@+id/item_learn"&ndash;&gt;-->
+<!--&lt;!&ndash;android:icon="@drawable/list_item"&ndash;&gt;-->
+<!--&lt;!&ndash;app:showAsAction="ifRoom"&ndash;&gt;-->
+<!--&lt;!&ndash;/>&ndash;&gt;-->
+<!--</menu>-->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:id="@+id/item_change"
+    android:layout_gravity="center_vertical"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/left_change_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/ic_personal" />
+
+    <TextView
+        android:id="@+id/left_change_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="16dp"
+        android:layout_toEndOf="@+id/left_change_icon"
+        android:layout_toRightOf="@id/left_icon"
+        android:text="@string/username"
+        android:textColor="#636363" />
+
+    <EditText
+        android:id="@+id/edit_change_user"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="126dp"
+        android:layout_marginBottom="13dp"
+
+        android:layout_toEndOf="@+id/left_change_title"
+        android:background="@color/white"
+        android:text="@string/default_name"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/button_finish"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+
+        android:layout_alignBottom="@+id/edit_change_user"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="-4dp"
+        android:background="@drawable/check_circle" />
+</RelativeLayout>

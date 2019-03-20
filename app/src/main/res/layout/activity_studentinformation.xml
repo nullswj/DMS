@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dms.activity.teacher.Studentinformation">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tlb_tsinfo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/guideline7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <com.example.dms.activity.teacher.ItemView
+        android:id="@+id/itemView_m_name"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline119"
+        app:layout_constraintTop_toBottomOf="@+id/itemView_m_sno"
+        app:left_icon="@drawable/ic_personal"
+        app:left_text="@string/studinfo_name"
+        app:right_text="@string/person1">
+
+
+    </com.example.dms.activity.teacher.ItemView>
+
+    <com.example.dms.activity.teacher.ItemView
+        android:id="@+id/itemView_m_sno"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline119"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:left_icon="@drawable/ic_personal"
+        app:left_text="@string/studinfo_number"
+        app:right_text="@string/person1">
+
+
+    </com.example.dms.activity.teacher.ItemView>
+
+    <com.example.dms.activity.teacher.ItemView
+        android:id="@+id/itemView_m_school"
+        android:layout_width="382dp"
+        android:layout_height="56dp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemView_m_name"
+        app:left_icon="@drawable/ic_personal"
+        app:left_text="@string/student_school"
+        app:right_text="@string/person1">
+
+    </com.example.dms.activity.teacher.ItemView>
+
+    <com.example.dms.activity.teacher.ItemView
+        android:id="@+id/itemView_m_tel"
+        android:layout_width="382dp"
+        android:layout_height="59dp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemView_m_class"
+        app:left_icon="@drawable/ic_personal"
+        app:left_text="@string/stud_tel">
+
+    </com.example.dms.activity.teacher.ItemView>
+
+    <com.example.dms.activity.teacher.ItemView
+        android:id="@+id/itemView_m_collage"
+        android:layout_width="382dp"
+        android:layout_height="57dp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemView_m_school"
+        app:left_icon="@drawable/ic_personal"
+        app:left_text="@string/studinfo_college">
+
+
+    </com.example.dms.activity.teacher.ItemView>
+
+    <com.example.dms.activity.teacher.ItemView
+        android:id="@+id/itemView_m_grade"
+        android:layout_width="382dp"
+        android:layout_height="59dp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemView_m_collage"
+        app:left_icon="@drawable/ic_personal"
+        app:left_text="@string/studinfo_grade">
+
+
+    </com.example.dms.activity.teacher.ItemView>
+
+    <com.example.dms.activity.teacher.ItemView
+        android:id="@+id/itemView_m_major"
+        android:layout_width="382dp"
+        android:layout_height="59dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemView_m_grade"
+        app:left_icon="@drawable/ic_personal"
+        app:left_text="@string/studinfo_major">
+
+
+    </com.example.dms.activity.teacher.ItemView>
+
+    <com.example.dms.activity.teacher.ItemView
+        android:id="@+id/itemView_m_class"
+        android:layout_width="382dp"
+        android:layout_height="59dp"
+
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemView_m_major"
+        app:left_icon="@drawable/ic_personal"
+        app:left_text="@string/studinfo_class">
+
+
+    </com.example.dms.activity.teacher.ItemView>
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.1" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/stud_info"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tlb_tsinfo"
+        app:layout_constraintEnd_toEndOf="@+id/tlb_tsinfo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tlb_tsinfo" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline95"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.68" />
+
+    <Button
+        android:id="@+id/reset_stud_info"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_style_long"
+        android:text="@string/resetstud"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemView_m_tel" />
+
+    <ImageView
+        android:id="@+id/img_stud_info"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/itemView_m_name"
+        app:layout_constraintEnd_toStartOf="@+id/guideline119"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline7"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/default_photo" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline119"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1953125" />
+
+    <Button
+        android:id="@+id/btn_connect"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/button_style_long"
+        android:text="@string/studinfo_connect"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline10"
+        app:layout_constraintTop_toBottomOf="@+id/itemView_m_tel" />
+
+
+</android.support.constraint.ConstraintLayout>

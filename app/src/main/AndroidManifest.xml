@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.dms">
+
+    <!-- 【必须】 信鸽SDK所需权限 -->
+    <!-- 【常用】 信鸽SDK所需权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <!-- 【可选】 信鸽SDK所需权限 -->
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission
+        android:name="android.permission.READ_LOGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.BATTERY_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES\" />
+    <uses-permission
+        android:name="android.permission.WRITE_APN_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission
+        android:name="android.permission.ACCESS_MOCK_LOCATION"
+        tools:ignore="MockLocation,ProtectedPermissions" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <!-- 硬件功能请求 -->
+    <uses-feature android:name="android.hardware.camera.any" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <!-- 项目权限配置 -->
+    <!-- 相机 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 蓝牙 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- 网络 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 录音 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 震动权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 访问网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 访问WIFI状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 访问精确定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 读取手机状态 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 写入外部存储 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 读取外部存储 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- 安装卸载文件系统 -->
+    <uses-permission
+        android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"
+        tools:ignore="ProtectedPermissions" />
+    <!-- 修改音频设置 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- 读取启动设置 -->
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <!-- 唤醒锁屏，音视频通话所需 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!-- 悬浮窗权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <application
+        android:name=".DmsApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_app_test"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_app_test_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        tools:ignore="GoogleAppIndexingWarning">
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="ZkxelCAbsEpmU6EhizYdqDy1FuFDribP" />
+
+        <activity
+            android:name=".activity.common.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.student.student_work.GetLocationActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.common.InforVerifyActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.student.student_bind.BindActivity" 
+		android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.common.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.common.Forgetpw_verify_Activity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.useinfo.SettingActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.useinfo.UserInfoActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.homepage.HomepageActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activitycontainer.BaseActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.common.Forgetpw_reset_Activity" 
+		android:screenOrientation="portrait"/>
+        <activity
+            android:name=".activity.student.student_work.UploadphotoActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".hyphenatechat.VoiceCallActivity" 
+		android:screenOrientation="portrait"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.dms.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" />
+
+        <activity android:name=".activity.student.student_bind.BindingPhotoActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.student.student_bind.BindingLocationActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.teacher.ResultActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.teacher.Studentinformation" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.teacher.TeacherMessageActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".tcxg.activity.SettingActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.teacher.TeacherMsgInfoActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".tcxg.activity.DiagnosisActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".tcxg.activity.DeviceActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".hyphenatechat.VideoCallActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.useinfo.TeacherInfoActivity" 
+		android:screenOrientation="portrait"/>
+
+        <!-- 设置环信应用的AppKey -->
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="1100181208085723#zhinengchaqin" />
+        <!-- 声明SDK所需的service SDK核心功能 -->
+        <service
+            android:name="com.hyphenate.chat.EMChatService"
+            android:exported="true" />
+        <service
+            android:name="com.hyphenate.chat.EMJobService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <!-- 声明SDK所需的receiver -->
+        <receiver android:name="com.hyphenate.chat.EMMonitorReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+            <!-- 可选filter -->
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".tcxg.receiver.MessageReceiver"
+            android:exported="true">
+            <intent-filter>
+
+                <!-- 接收消息透传 -->
+                <action android:name="com.tencent.android.tpush.action.PUSH_MESSAGE" />
+                <!-- 监听注册、反注册、设置/删除标签、通知被点击等处理结果 -->
+                <action android:name="com.tencent.android.tpush.action.FEEDBACK" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".activity.student.student_work.StudentMessageActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.student.student_work.StudentMsgInfoActivity" 
+		android:screenOrientation="portrait"/>
+
+        <meta-data
+            android:name="EASEMOB_APPKEY"
+            android:value="1100181208085723#zhinengchaqin" />
+        <!-- 声明sdk所需的 Service SDK核心功能 -->
+        <service
+            android:name="com.hyphenate.chat.EMChatService"
+            android:exported="true" />
+
+        <activity android:name=".activity.teacher.ReleaseCheckActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.teacher.ResetStudentActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.teacher.CheckStudentInfoActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.student.student_work.StudentLeavewordActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.teacher.TeacherSendNoticeActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.teacher.ConnectActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.common.ServiceAgreementActivity" 
+		android:screenOrientation="portrait"/>
+        <activity android:name=".activity.common.PrivacyPolicyActivity"
+		android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

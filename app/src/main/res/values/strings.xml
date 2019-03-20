@@ -1,0 +1,237 @@
+<resources>
+
+    <string name="app_name">查</string>
+    <string name="login">登录</string>
+    <string name="plea_input_tel">手机号</string>
+    <string name="plea_input_pw">密码</string>
+    <string name="retrieve_pw">找回密码</string>
+    <string name="reset_pw">重置密码</string>
+    <string name="register">没有账号，立即注册</string>
+    <string name="forgetpwd">忘记密码？</string>
+    <string name="欢迎">高能警报！同学，查寝了哦</string>
+    <string name="account_type">账户类型：</string>
+    <string name="student">学生</string>
+    <string name="teacher">老师</string>
+    <string name="uer_name">用户名</string>
+    <string name="sure_pw">密码确认</string>
+    <string name="back">返回</string>
+    <string name="reg">注  册</string>
+    <string name="正在注册中">注册ing</string>
+    <string name="plea_input_identify_code">验证码</string>
+    <string name="get_identify_code">获取验证码</string>
+    <string name="reg_explain">注册代表您同意我们的</string>
+    <string name="协议">服务协议</string>
+    <string name="隐私">隐私政策</string>
+    <string name="upphoto">照片上传</string>
+    <string name="and">和</string>
+    <string name="使用条款">使用条款</string>
+    <string name="item">《智能查寝使用条款和隐私政策》</string>
+    <string name="plea_input_account">用户名/手机号</string>
+    <string name="info_blind">信息绑定</string>
+    <string name="blind_now">是否现在绑定信息？</string>
+    <string name="blind_explain1">1、要上传寝室位置与个人照片，该数据将作为以后查寝的系统比对数据。</string>
+    <string name="blind_explain2">2、请确保设备此时位于寝室，上传照片时，请上传清晰的证件照。</string>
+    <string name="bind_photo">系统照片上传</string>
+    <string name="bind_opencamera">拍摄照片</string>
+    <string name="bind_uploadphoto">上传</string>
+    <string name="blind_later">以后再说</string>
+    <string name="blind">现在绑定</string>
+    <string name="infor_verify">信息验证</string>
+    <string name="plea_input_no_name">请输入学/工号和姓名</string>
+    <string name="plea_input_no">请输入学/工号</string>
+    <string name="plea_input_name">请输入姓名</string>
+    <string name="verify">验证</string>
+    <string name="infor_blind">个人信息绑定</string>
+    <string name="plea_input_personal_infor">请输入个人信息</string>
+    <string name="plea_input_college">请输入学院</string>
+    <string name="plea_input_grade">请输入年级</string>
+    <string name="plea_input_major">请输入专业</string>
+    <string name="plea_input_class">请输入班级</string>
+    <string name="sure">确定</string>
+    <string name="home_page">首页</string>
+    <string name="notify">近期通知：</string>
+    <string name="notify1">安全事件频发</string>
+    <string name="notify2">请大家注意安全</string>
+    <string name="notify3">按时回家找爸爸哦！</string>
+    <string name="receive_seek">接受查寝</string>
+    <string name="textIform">午时已到\n开始查寝</string>
+    <string name="textBegin">开始查寝</string>
+    <string name="getLcoation">获取位置</string>
+    <string name="sentLccation">发送位置</string>
+    <string name="opengps">打开GPS</string>
+    <string name="ending">恶魔离去，查寝完成</string>
+    <string name="text_ending">返回首页</string>
+    <string name="sendMessage">发布查寝</string>
+    <string name="verify_cancel">取消</string>
+    <string name="blind_cancel">取消</string>
+    <string name="stud_info">学生信息</string>
+    <string name="result_title">缺勤人员</string>
+    <string name="result_shuaxin">刷新</string>
+    <string name="result_sousuo">搜索</string>
+    <string name="result_cancel">显示全部</string>
+    <string name="binding_sucess">绑定成功</string>
+    <string name="binding_confirm">确定</string>
+    <string name="studinfo_name">姓名</string>
+    <string name="studinfo_number">学号</string>
+    <string name="student_school">学校</string>
+    <string name="studinfo_college">学院</string>
+    <string name="studinfo_grade">年级</string>
+    <string name="studinfo_major">专业</string>
+    <string name="studinfo_class">班级</string>
+    <string name="studinfo_modify">修改</string>
+    <string name="studinfo_connect">联系</string>
+    <string name="studinfo_image">头像</string>
+    <string name="connstud_yuyin">语音通话</string>
+    <string name="connstud_bohao">拨号</string>
+    <string name="connstud_shipin">视屏通话</string>
+    <string name="connstud_location">查看位置</string>
+    <string name="person1">张小凡</string>
+    <string name="stud_tel">电话</string>
+    <string name="stud_sign">个性签名</string>
+    <string name="stud_remark">备注</string>
+    <string name="stud_2016260104XX">2016260104XX</string>
+    <string name="stud_exam_college">信息科学与工程学院</string>
+    <string name="srud_exam_class">2016级软件工程4班</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="time_show">2018/12/23 11:35</string>
+    <string name="message_detail">消息详情</string>
+    <string name="push_sender">发送人</string>
+    <string name="push_time">发送时间</string>
+    <string name="push_college">所属学院</string>
+    <string name="push_dep_info">专业班级</string>
+    <string name="send_message">发送通知</string>
+    <string name="check_result">查寝结果</string>
+    <string name="check_leave_word">查看留言</string>
+    <string name="message_list">消息列表</string>
+    <string name="message_clean">清空</string>
+    <string name="student_check_notice">查看通知</string>
+    <string name="student_leave_word">留言</string>
+    <string name="bind_loaction">绑定位置</string>
+    <string name="school_input">请输入学校</string>
+    <string name="select_student">选择目标:全选，请选择默认值</string>
+    <string name="release">发布</string>
+    <string name="resetstud">重置信息</string>
+    <string name="reset_stud_status">重置学籍信息</string>
+    <string name="reset_stud_photo">重置照片信息</string>
+    <string name="reset_stud_location">重置位置信息</string>
+    <string name="leave_word_input">请在此输入留言</string>
+    <string name="send_leave_word">发送</string>
+    <string name="notice_input">输入通知</string>
+    <string name="notice_tital">输入通知标题</string>
+    <string name="leave_word_tital">输入留言标题</string>
+    <string name="dialog">一键拨号</string>
+    <string name="yuyintonghua">语音通话</string>
+    <string name="shipingtonghua">视屏通话</string>
+    <string name="resetID">解绑学号</string>
+
+
+    <!--通话方面的提示信息-->
+    <string name="call_accepted">通话已接通</string>
+    <string name="call_busy">对方正忙</string>
+    <string name="call_cancel">已取消</string>
+    <string name="call_cancel_is_incoming">对方已取消</string>
+    <string name="call_connecting">正在呼叫对方</string>
+    <string name="call_connected">正在等待对方接受呼叫申请</string>
+    <string name="call_connected_is_incoming">对方申请与你进行通话</string>
+    <string name="call_connection_fail">建立连接失败</string>
+    <string name="call_disconnected">通话已结束</string>
+    <string name="call_duration_time">通话时长</string>
+    <string name="call_no_data">没有通话数据</string>
+    <string name="call_not_answer">对方未接听</string>
+    <string name="call_no_response">对方可能在忙，建议稍后拨打</string>
+    <string name="call_offline">对方不在线</string>
+    <string name="call_network_unstable">网络状态不佳</string>
+    <string name="call_network_normal">网络状态良好</string>
+    <string name="call_reject">对方已拒绝</string>
+    <string name="call_reject_is_incoming">已拒绝</string>
+    <string name="call_local_version_smaller">本地版本过低，无法通讯</string>
+    <string name="call_opposite_version_smaller">对方版本过低，无法通讯</string>
+    <string name="call_version_different">双方通讯协议不同，无法通讯</string>
+    <string name="call_video_pause">视频传输已暂停</string>
+    <string name="call_video_resume">视频传输已恢复</string>
+    <string name="call_video_calling">视频通话进行中</string>
+    <string name="call_voice_pause">语音传输已暂停</string>
+    <string name="call_voice_resume">语音传输已恢复</string>
+    <string name="call_voice_calling">语音通话进行中</string>
+
+    <string name="text_test">网络错误</string>
+    <string name="mly">没卵用</string>
+    <string name="student_home">主页</string>
+    <string name="title_activity_student_home">StudentHome</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">没卵用</string>
+    <string name="title_myinfo">我的</string>
+    <string name="default_name">张三</string>
+    <string name="default_phone">156*****145</string>
+    <string name="changepassword">修改密码</string>
+    <string name="logout">注销设备</string>
+    <string name="remember_password">记住用户</string>
+    <string name="quit">退出程序</string>
+    <string name="autoLogin">自动登陆</string>
+    <string name="userclass">班级</string>
+    <string name="signname">这个家伙懒，什么都没写</string>
+    <string name="changename">修改用户名</string>
+    <string name="changesignname">修改签名</string>
+    <string name="username">用户名</string>
+    <string name="check_student_info">查看学生信息</string>
+
+    <!--腾讯信鸽-->
+    <string name="action_search">搜索</string>
+    <string name="action_device_token">设备Token</string>
+    <string name="action_help_center">帮助中心</string>
+    <string name="action_about_us">关于信鸽</string>
+    <string name="device_title">您的设备Token为：</string>
+    <string name="device_hint">已成功上传至网页端测试设备页面</string>
+    <string name="action_clear">清除已收到通知</string>
+    <string name="action_setting">功能设置</string>
+    <string name="action_diagnosis">一键诊断</string>
+    <string name="version">信鸽Demo 2.3.5</string>
+    <string name="unregister">反注册</string>
+    <string name="tag">设置标签</string>
+    <string name="registerAccount">启动&amp;注册（绑定账号）</string>
+    <string name="delTag">删除标签</string>
+    <string name="clearCache">清除本地缓存</string>
+    <string name="copyToken">复制Token</string>
+    <string name="device">您的设备Token为：</string>
+    <string name="action_back">返回上级</string>
+
+    <string name="itemdate">
+        <b>请仔细阅读并同意以下用户协议：</b>\n\n
+        \t\t\t\t本应用尊重并保护所有使用服务用户的个人隐私权。为了给您提供更准确、更有个性化的服务，本应用会按照本隐私权政策的规定使用和披露您的个人信息。但本应用将以高度的勤勉、审慎义务对待这些信息。除本隐私权政策另有规定外，在未征得您事先许可的情况下，本应用不会将这些信息对外披露或向第三方提供。本应用会不时更新本隐私权政策。 您在同意本应用服务使用协议之时，即视为您已经同意本隐私权政策全部内容。本隐私权政策属于本应用服务使用协议不可分割的一部分。\n\n
+        <b>1、适用范围</b>\n\n
+        \t\t\t\t(a) 在您注册本应用帐号时，您根据本应用要求提供的个人注册信息；\n\n
+        \t\t\t\t(b) 在您使用本应用网络服务，或访问本应用平台网页时，本应用自动接收并记录的您的浏览器和计算机上的信息，包括但不限于您的IP地址、浏览器的类型、使用的语言、访问日期和时间、软硬件特征信息及您需求的网页记录等数据；\n\n
+        \t\t\t\t(c) 本应用通过合法途径从商业伙伴处取得的用户个人数据。\n\n
+        \t\t\t\t您了解并同意，以下信息不适用本隐私权政策：\n\n
+        \t\t\t\t(a) 您在使用本应用平台提供的搜索服务时输入的关键字信息；\n\n
+        \t\t\t\t(b) 本应用收集到的您在本应用发布的有关信息数据，包括但不限于参与活动、成交信息及评价详情；\n\n
+        \t\t\t\t(c) 违反法律规定或违反本应用规则行为及本应用已对您采取的措施。\n\n
+        <b>2、信息使用</b>\n\n
+        \t\t\t\t(a)本应用不会向任何无关第三方提供、出售、出租、分享或交易您的个人信息，除非事先得到您的许可，或该第三方和本应用（含本应用关联公司）单独或共同为您提供服务，且在该服务结束后，其将被禁止访问包括其以前能够访问的所有这些资料。\n\n
+        \t\t\t\t(b)本应用亦不允许任何第三方以任何手段收集、编辑、出售或者无偿传播您的个人信息。任何本应用平台用户如从事上述活动，一经发现，本应用有权立即终止与该用户的服务协议。\n\n
+        \t\t\t\t(c)为服务用户的目的，本应用可能通过使用您的个人信息，向您提供您感兴趣的信息，包括但不限于向您发出产品和服务信息，或者与本应用合作伙伴共享信息以便他们向您发送有关其产品和服务的信息（后者需要您的事先同意）。\n\n
+        <b>3、信息披露</b>\n\n
+        在如下情况下，本应用将依据您的个人意愿或法律的规定全部或部分的披露您的个人信息：\n
+        \t\t\t\t(a) 经您事先同意，向第三方披露；\n\n
+        \t\t\t\t(b)为提供您所要求的产品和服务，而必须和第三方分享您的个人信息；\n\n
+        \t\t\t\t(c)根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露；\n\n
+        \t\t\t\t(d) 如您出现违反中国有关法律、法规或者本应用服务协议或相关规则的情况，需要向第三方披露；\n\n
+        \t\t\t\t(e) 如您是适格的知识产权投诉人并已提起投诉，应被投诉人要求，向被投诉人披露，以便双方处理可能的权利纠纷；\n\n
+        \t\t\t\t(f) 在本应用平台上创建的某一交易中，如交易任何一方履行或部分履行了交易义务并提出信息披露请求的，本应用有权决定向该用户提供其交易对方的联络方式等必要信息，以促成交易的完成或纠纷的解决。\n\n
+        \t\t\t\t(g) 其它本应用根据法律、法规或者网站政策认为合适的披露。\n\n
+        <b>4、信息存储和交换</b>\n\n
+        \t\t\t\t本应用收集的有关您的信息和资料将保存在本应用及（或）其关联公司的服务器上，这些信息和资料可能传送至您所在国家、地区或本应用收集信息和资料所在地的境外并在境外被访问、存储和展示。\n\n
+        <b>5、Cookie的使用</b>\n\n
+        \t\t\t\t(a) 在您未拒绝接受cookies的情况下，本应用会在您的计算机上设定或取用cookies ，以便您能登录或使用依赖于cookies的本应用平台服务或功能。本应用使用cookies可为您提供更加周到的个性化服务，包括推广服务。\n\n
+        \t\t\t\t(b) 您有权选择接受或拒绝接受cookies。您可以通过修改浏览器设置的方式拒绝接受cookies。但如果您选择拒绝接受cookies，则您可能无法登录或使用依赖于cookies的本应用网络服务或功能。\n\n
+        \t\t\t\t(c) 通过本应用所设cookies所取得的有关信息，将适用本政策。\n\n
+        <b>6、信息安全</b>\n\n
+        \t\t\t\t本应用帐号均有安全保护功能，请妥善保管您的用户名及密码信息。本应用将通过对用户密码进行加密等安全措施确保您的信息不丢失，不被滥用和变造。尽管有前述安全措施，但同时也请您注意在信息网络上不存在“完善的安全措施”。\n\n
+        <b>7、本隐私政策的更改</b>\n\n
+        \t\t\t\t(a)如果决定更改隐私政策，我们会在本政策中、本公司网站中以及我们认为适当的位置发布这些更改，以便您了解我们如何收集、使用您的个人信息，哪些人可以访问这些信息，以及在什么情况下我们会透露这些信息。\n\n
+        \t\t\t\t(b)本公司保留随时修改本政策的权利，因此请经常查看。如对本政策作出重大更改，本公司会通过网站通知的形式告知。\n\n
+        \t\t\t\t请您妥善保护自己的个人信息，仅在必要的情形下向他人提供。如您发现自己的个人信息泄密，尤其是本应用用户名及密码发生泄露，请您立即联络本应用客服，以便本应用采取相应措施。
+    </string>
+
+</resources>
